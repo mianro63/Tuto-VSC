@@ -1,0 +1,134 @@
+@charset "ISO-8859-1";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: white;
+    font-family: Arial, Helvetica, Console;
+}
+
+#container {
+    width: 90%;
+    margin: 0% auto;
+    border: 2px solid #000000;
+}
+
+header {
+    background: lightgray;
+    /* color de fondo */
+    height: 50px;
+    /* alto de caja */
+    width: 100%;
+    /* ancho de caja */
+    margin: 0% auto;
+    /* ancho de margen */
+    text-align: center;
+    /* Centar título */
+    line-height: 50px;
+    /* Centra Vertical */
+    color: #000000;
+    /* color de letra */
+    border: 1px solid #008040;
+    /* ancho y color de borde */
+}
+
+nav {
+    background: #bcdfeb;
+    /* color de fondo */
+    height: 50px;
+    /* alto de caja */
+    border: 1px solid #008040;
+    /* ancho del borde */
+    width: 100%;
+    /* ancho de caja */
+    /*	margin: 0% auto; 
+	line-height: 30px;  */
+}
+
+nav ul li {
+    float: left;
+    /* se ubican al lado izquierdo */
+    list-style: none;
+    /* elimina atributos de letras */
+    margin: 15px;
+    /* margen entre títulos de menú*/
+}
+
+.clearfix {
+    clear: both;
+    /* Separa elem de menu de resto */
+}
+
+
+#content {
+    float: left;
+    /* se ubican al lado izquierdo */
+    width: calc(80% - 40px);
+    /* ancho de caja */
+    min-height: 500px;
+    /* Minimo alto de caja */
+    background: green;
+    /* color de fondo */
+    padding: 20px;
+    /* margen interna de caja */
+}
+
+.article {
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    /* margen interna aba. */
+    border-bottom: 1px solid #a9f8c0;
+}
+
+.article:first-child {
+    padding-top: 10px;
+    /* margen interna arr. */
+    border-top: 1px solid #a9f8c0;
+}
+
+.article p {
+    font-size: 15 px;
+    color: #87c6da;
+}
+
+.article h2 {
+    font-size: 30px;
+    color: #4f84cc;
+}
+
+aside {
+    float: left;
+    /* se ubican al lado izquierdo */
+    width: calc(20% - 40px);
+    /* ancho de caja - margen interna*/
+    min-height: 500px;
+    /* Minimo alto de caja */
+    background: orange;
+    /* color de fondo */
+    padding-right: 20px;
+    /*margen interna der. */
+    padding-left: 20px;
+    /*margen interna izq. */
+    padding-top: 40px;
+    /*margen interna arr. */
+    /*	padding-bottom: 20px;			  margen interna arr. */
+}
+
+
+footer {
+    background: black;
+    /* Fondo de pie de pag. */
+    color: white;
+    /* color de letra */
+    text-align: center;
+    /* centra texto */
+    height: 50px;
+    /* alto de caja */
+    line-height: 50px;
+    /* Centra Vertical */
+}
